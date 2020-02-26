@@ -1,0 +1,21 @@
+{
+  "name": "experiments-backend",
+  "version": "1.0.0",
+  "description": "Small REST API and SSE backend for Experiments application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "watch": "nodemon app/app.js",
+    "mongo": "C:/Program Files/MongoDB/Server/4.0/bin/mongod --dbpath D:/Mine/Projects/mongo-data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matej Hudak",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "request": "^2.88.2"
+  }
+}
